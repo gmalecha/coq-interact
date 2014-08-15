@@ -1,0 +1,4 @@
+<test.ml>: debug
+<coq_interact.ml>: package(unix), package(xmlm), debug
+<test.byte>: package(unix), package(xmlm), linkpkg, debug
+<test.native>: package(unix), package(xmlm), linkpkg
